@@ -4,10 +4,10 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
-tap 'stripe/stripe-cli'
+# tap 'stripe/stripe-cli'
 
 # Binaries
-brew 'awscli'
+# brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
@@ -19,8 +19,8 @@ brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
+# brew 'stripe/stripe-cli/stripe'
+# brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 
 # Spatie Medialibrary
@@ -46,31 +46,28 @@ brew 'yarn'
 # Apps
 cask '1password'
 cask 'caffeine'
-cask 'dbngin'
 cask 'discord'
-cask 'docker'
+cask 'expressvpn'
 cask 'figma'
 cask 'firefox'
 cask 'github'
+cask 'github-desktop'
 cask 'google-chrome'
-cask 'gpg-suite'
 cask 'helo'
-cask 'homebrew/cask-drivers/elgato-stream-deck'
 cask 'imageoptim'
 cask 'insomnia'
+cask 'iterm2'
 cask 'pastebot'
-cask 'phpmon'
-cask 'phpstorm'
-cask 'ray'
-cask 'screenflow'
+# cask 'screenflow'
+cask 'sequel-pro'
 cask 'slack'
-cask 'tableplus'
+# cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'tunnelbear'
-cask 'tuple'
+# cask 'tuple'
 cask 'visual-studio-code'
 cask 'whatsapp'
 cask 'zoom'
@@ -83,17 +80,18 @@ cask 'quicklook-json'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
+cask 'font-montserrat'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
+mas 'Bear', id: 1091189122
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
+mas 'Kindle', id: 405399194
 mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
 mas 'Speedtest', id: 1153157709
 mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
