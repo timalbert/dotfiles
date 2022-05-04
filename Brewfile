@@ -4,10 +4,8 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
-# tap 'stripe/stripe-cli'
 
 # Binaries
-# brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
@@ -19,8 +17,6 @@ brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-# brew 'stripe/stripe-cli/stripe'
-# brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 
 # Spatie Medialibrary
@@ -51,23 +47,22 @@ cask 'expressvpn'
 cask 'figma'
 cask 'firefox'
 cask 'github'
-cask 'github-desktop'
 cask 'google-chrome'
 cask 'helo'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
 cask 'pastebot'
-# cask 'screenflow'
+cask 'send-to-kindle'
 cask 'sequel-pro'
 cask 'slack'
-# cask 'tableplus'
+cask 'spectacle'
+cask 'sublime-text'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'tunnelbear'
-# cask 'tuple'
 cask 'visual-studio-code'
 cask 'whatsapp'
 cask 'zoom'
