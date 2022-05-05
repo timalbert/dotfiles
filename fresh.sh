@@ -38,15 +38,11 @@ pecl install imagick redis swoole
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
-# Install Global Ray
-$HOME/.composer/vendor/bin/global-ray install
-
 # Create a Sites directory
 mkdir $HOME/Sites
 
 # Create sites subdirectories
-# mkdir $HOME/Sites/blade-ui-kit
-# mkdir $HOME/Sites/laravel
+mkdir $HOME/Sites/xyz
 
 # Clone Github repositories
 $DOTFILES/clone.sh
